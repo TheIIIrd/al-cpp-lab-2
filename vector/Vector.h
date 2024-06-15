@@ -166,7 +166,7 @@ inline Vector operator^(Vector &_VECT_ONE, Vector &_VECT_TWO) {
 }
 
 inline void customOutput(const Vector &_VECT) {
-  std::ofstream fout("output.txt", std::ios::app);
+  std::ofstream fout("../stream/output.txt", std::ios::app);
 
   fout << _VECT;
   std::cout << _VECT;
