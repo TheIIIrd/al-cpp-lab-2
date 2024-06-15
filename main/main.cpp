@@ -1,4 +1,4 @@
-#include "Vector.h"
+#include "../vector/Vector.h"
 
 int main() {
   Vector test1, test2, test3;
