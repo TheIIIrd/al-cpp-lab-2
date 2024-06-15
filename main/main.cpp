@@ -3,7 +3,7 @@
 int main() {
   Vector test1, test2, test3;
 
-  std::ifstream fin("input.txt");
+  std::ifstream fin("../stream/input.txt");
   fin >> test1 >> test2;
   fin.close();
 
